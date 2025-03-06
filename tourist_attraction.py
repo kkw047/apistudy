@@ -1,3 +1,5 @@
+from contextlib import nullcontext
+
 import requests
 
 def get_tourist_sites():
@@ -15,5 +17,7 @@ def get_tourist_sites():
             '시군': item['시군'],
             '위치': item['위치']
         })
+
 ##branch test
-    return result
+    for item in result:
+        print(result)
