@@ -5,5 +5,4 @@ import tourist_attraction
 
 test_a = tourist_attraction.get_tourist_sites()
 
-for item in test_a:
- print(item)
+test_a
